@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+html, body, #main { height: 100%; }
+body > #main { height: auto; min-height: 100%; }
+
+h1 {
+  font-size: 4em;
+  display: inline;
+}
+
+#main {
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom:1px dotted #999; padding-bottom:1px;
+}
+
+#main a {
+  font-size: 5em;
+  padding: 10px;
+}
+
+#main a:hover {
+  color: #636363;
+}
+
+#main span {
+  color: #636363;
+  font-size: 4em;
+}
+
+#main .arrow {
+  color: #000;
+  font-size: 4em;
+}
+
+#footer {
+  color: #636363;
+  text-align: right;
+  padding-right: 10px;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+}
+
